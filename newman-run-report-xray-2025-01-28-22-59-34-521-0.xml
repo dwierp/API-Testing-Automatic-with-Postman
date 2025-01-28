@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Contact List" tests="12">
+  <testsuite id="57e4ee46-8b4e-4854-a854-5a9b59bc954a" name="Basic Endpoints Test" tests="1" timestamp="2025-01-29T05:59:34.510" time="1.230" failures="0" errors="0">
+    <testcase classname="ContactList" name="Login" time="1.230"/>
+  </testsuite>
+  <testsuite id="2b4cb7b8-b89b-42c7-8ae0-583c5fe29e7e" name="Basic Endpoints Test" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.257" failures="0" errors="0">
+    <testcase classname="ContactList" name="Get Contact List" time="0.257"/>
+  </testsuite>
+  <testsuite id="480e03b7-97d8-4eb5-93e7-a7dc36678e55" name="Basic Endpoints Test" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.693" failures="0" errors="0">
+    <testcase classname="ContactList" name="Add Contact" time="0.693"/>
+  </testsuite>
+  <testsuite id="897e0b97-25f6-42db-b069-aa8ba6cfd98d" name="Basic Endpoints Test" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.276" failures="0" errors="0">
+    <testcase classname="ContactList" name="Update Contact" time="0.276"/>
+  </testsuite>
+  <testsuite id="a0cd95ee-b410-440e-b49d-e3eaf4f74f9a" name="Basic Endpoints Test" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.260" failures="0" errors="0">
+    <testcase classname="ContactList" name="Get Contact" time="0.260"/>
+  </testsuite>
+  <testsuite id="4a42a13d-46b5-4e75-9f88-c24bfe5a322e" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.249" failures="0" errors="0">
+    <testcase classname="ContactList" name="Get Contact List - Unauthorized" time="0.249"/>
+  </testsuite>
+  <testsuite id="c83f2cd2-85cd-438b-b604-28ca7b1a0aed" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.606" failures="0" errors="0">
+    <testcase classname="ContactList" name="Get Contact - Not Found" time="0.606"/>
+  </testsuite>
+  <testsuite id="cd38e70e-3945-4659-b150-9fedcd91ca43" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.254" failures="0" errors="0">
+    <testcase classname="ContactList" name="Add Contact - Missing Required Field" time="0.254"/>
+  </testsuite>
+  <testsuite id="caedaaf1-346c-4411-8e3c-56cb59632e5b" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.260" failures="0" errors="0">
+    <testcase classname="ContactList" name="Add Contact - Last Name Too Long" time="0.260"/>
+  </testsuite>
+  <testsuite id="7fb84458-7979-4678-821a-258c1c84e55e" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.277" failures="0" errors="0">
+    <testcase classname="ContactList" name="Update Contact - Invalid Email" time="0.277"/>
+  </testsuite>
+  <testsuite id="53fc8e28-2f37-4f34-b86d-cff9b2cc5f9f" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.267" failures="0" errors="0">
+    <testcase classname="ContactList" name="Delete Contact" time="0.267"/>
+  </testsuite>
+  <testsuite id="77d7f7a2-7b96-440f-82f6-8968acbff265" name="Negative Case" tests="1" timestamp="2025-01-29T05:59:34.510" time="0.259" failures="0" errors="0">
+    <testcase classname="ContactList" name="Logout" time="0.259"/>
+  </testsuite>
+</testsuites>
