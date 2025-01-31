@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Address API" tests="1">
+  <testsuite id="7177041d-d109-451c-83d3-f5b22c375d5a" name="" tests="1" timestamp="2025-01-29T18:24:28.770" time="2.315" failures="0" errors="0">
+    <testcase classname="AddressApi" name="Get Address" time="2.315"/>
+  </testsuite>
+</testsuites>

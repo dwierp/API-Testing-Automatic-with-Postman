@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pet Owners" tests="2">
+  <testsuite id="906a5d84-ce2e-45f7-acc5-06ebb924e905" name="" tests="1" timestamp="2025-01-29T17:52:51.782" time="1.964" failures="0" errors="0">
+    <testcase classname="PetOwners" name="Get Pet Owners" time="1.964"/>
+  </testsuite>
+  <testsuite id="fb77bdf3-560f-49b7-8983-6266ec283f84" name="" tests="1" timestamp="2025-01-29T17:52:51.782" time="0.513" failures="0" errors="0">
+    <testcase classname="PetOwners" name="Get Pet Owner" time="0.513"/>
+  </testsuite>
+</testsuites>
