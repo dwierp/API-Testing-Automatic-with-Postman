@@ -127,10 +127,7 @@ pm.test("Contact is added", function () {
 - <b>Day 5-6:</b> Write test scripts for negative scenarios.<br>
 - <b>Day 7:</b> Finalize documentation and deliver the project.<br>
 
-
-
-
-
-- Item pertama
-    - Sub-item 1
-    - Sub-item 2
+## Success Criteria
+- All test cases pass successfully.<br>
+- The collection is well-organized and easy to use.<br>
+- Documentation is clear and comprehensive.<br>
