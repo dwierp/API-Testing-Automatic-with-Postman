@@ -5,49 +5,40 @@ This project involves creating a comprehensive API testing suite for a Contact L
 
 ## Scope of Work ⚡
 ### 1. API Endpoints to Test:
-   a. Authentication: Login, Logout
-   b. Contact Management: Add, Update, Get, Delete, and List Contacts
-   c. Negative Test Cases: Invalid inputs, missing fields, unauthorized access, etc.
+   a. Authentication: Login, Logout<br>
+   b. Contact Management: Add, Update, Get, Delete, and List Contacts<br>
+   c. Negative Test Cases: Invalid inputs, missing fields, unauthorized access, etc.<br>
 ### 2. Tools:
-   a. Postman: For API testing and automation.
-   b. Environment Variables: To manage dynamic data like tokens, URLs, and contact IDs.
+   a. Postman: For API testing and automation.<br>
+   b. Environment Variables: To manage dynamic data like tokens, URLs, and contact IDs.<br>
 ### 3. Deliverables:
-   a. A Postman collection with all test cases.
-   b. Documentation of test scenarios and results.
-   c. Environment setup instructions.
+   a. A Postman collection with all test cases.<br>
+   b. Documentation of test scenarios and results.<br>
+   c. Environment setup instructions.<br>
 
 ## Test Scenarios
 ### 1. Authentication
-a. Login:
-   i. Request: POST /users/login
-   ii. Test Cases:
-       - Valid credentials (status code: 200, token returned).
-       - Invalid credentials (status code: 401, error message).
-b. Logout:
-   i. Request: POST /users/logout
-   ii. Test Cases:
-       - Valid token (status code: 200, success message).
-       - Invalid token (status code: 401, error message).
+#### a. Login:
+   i. Request: POST /users/login<br>
+   ii. Test Cases:<br>
+       - Valid credentials (status code: 200, token returned).<br>
+       - Invalid credentials (status code: 401, error message).<br>
+#### b. Logout:
+   i. Request: POST /users/logout<br>
+   ii. Test Cases:<br>
+       - Valid token (status code: 200, success message).<br>
+       - Invalid token (status code: 401, error message).<br>
+### 2. Contact Management
+#### a. Add Contact:
+   i. Request: POST /contacts<br>
+   ii. Test Cases:<br>
+       - Valid contact data (status code: 201, contact added).<br>
+       - Missing required fields (status code: 400, error message).<br>
+       - Invalid email format (status code: 400, error message).<br>
+#### b. Get Contact:
+   i. Request: GET /contacts/:contactId<br>
+   ii. Test Cases:<br>
+       - Valid contact ID (status code: 200, contact details returned).<br>
+       - Invalid contact ID (status code: 404, error message).<br>
 
 
-
-API Testing: A Software Tester’s Secret Weapon 🛠️
-
-As a Software Tester, I’ve learned one thing: great user experiences are built on the invisible foundations of solid APIs. While end-to-end testing often gets the spotlight, API testing is where we uncover some of the most critical issues before they reach the user.
-
-Here’s why API testing is essential for us testers:
-🔍 Deeper Insights: APIs expose the application's core logic, letting us identify defects early—without relying on the UI.<>
-⚡ Faster Feedback: Testing APIs is faster and more efficient, especially in agile or CI/CD workflows.<>
-🛡️ Security Matters: APIs are gateways to sensitive data. Testing them ensures they’re secure and resilient against threats.
-🌐 Better Integration: APIs connect systems. We ensure these integrations work seamlessly in real-world scenarios.
-
-Some of my favorite tools include [Postman/Swagger/etc.], but more than tools, it’s the approach that counts:
- 👍 Write clear test cases for every endpoint.
- 👍 Validate inputs, outputs, and error handling.
- 👍 Simulate edge cases and unexpected data.
-
-API testing isn’t just a skill; it’s a mindset. It’s about ensuring that the invisible threads that connect our applications are strong, reliable, and secure.
-
-💡 Fellow testers, what’s your favorite aspect of API testing? Any tips or tools you swear by? Let’s share and grow together! 👇
-
-hashtag#SoftwareTesting hashtag#APITesting hashtag#QualityAssurance hashtag#SQAwithDWI
